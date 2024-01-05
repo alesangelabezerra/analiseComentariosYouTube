@@ -45,42 +45,42 @@ Utilizamos uma nuvem de palavras que destaca as palavras mais frequentes nos com
 
 **Obtendo a CHAVE_API**
 
-# Guia para Obter a Chave API do Google Cloud para usar com a API do YouTube
+Guia para Obter a Chave API do Google Cloud para usar com a API do YouTube
 
-# Passo 1: Crie uma conta no Google Cloud
-# - Acesse https://cloud.google.com/ e crie uma conta ou faça login se já tiver uma.
+Passo 1: Crie uma conta no Google Cloud
+- Acesse https://cloud.google.com/ e crie uma conta ou faça login se já tiver uma.
 
-# Passo 2: Crie um novo projeto no Google Cloud
-# - No console do Google Cloud, vá para o Dashboard e crie um novo projeto.
+Passo 2: Crie um novo projeto no Google Cloud
+- No console do Google Cloud, vá para o Dashboard e crie um novo projeto.
 
-# Passo 3: Ative a API do YouTube Data
-# - No menu 'Library' do console do Google Cloud, procure por 'YouTube Data API v3' e ative-a para o seu projeto.
+Passo 3: Ative a API do YouTube Data
+- No menu 'Library' do console do Google Cloud, procure por 'YouTube Data API v3' e ative-a para o seu projeto.
 
-# Passo 4: Crie uma chave de API
-# - No console, vá para 'Credentials' e clique em 'Create credentials'.
-# - Escolha 'API key'. Após a criação, a chave da API será exibida.
+Passo 4: Crie uma chave de API
+- No console, vá para 'Credentials' e clique em 'Create credentials'.
+- Escolha 'API key'. Após a criação, a chave da API será exibida.
 
-# Passo 5: Restrinja a chave (opcional, mas recomendado para segurança)
-# - Você pode restringir a chave para ser usada apenas com a API do YouTube e limitar os IPs que podem usá-la.
+Passo 5: Restrinja a chave (opcional, mas recomendado para segurança)
+- Você pode restringir a chave para ser usada apenas com a API do YouTube e limitar os IPs que podem usá-la.
 
-# Passo 6: Use a chave em seu código
-# - Em seu código Python, use esta chave para autenticar suas solicitações à API do YouTube.
-#   Exemplo: 
-#   youtube = build('youtube', 'v3', developerKey='SUA_CHAVE_AQUI')
+Passo 6: Use a chave em seu código
+- Em seu código Python, use esta chave para autenticar suas solicitações à API do YouTube.
+  Exemplo: 
+  youtube = build('youtube', 'v3', developerKey='SUA_CHAVE_AQUI')
 
-# Lembre-se: Mantenha sua chave API segura e não a compartilhe publicamente.
+Lembre-se: Mantenha sua chave API segura e não a compartilhe publicamente.
 
 **OBTENDO O ID DO VIDEO**
 
-# Você encontra o ID do video na URL.
-# Ex.: https://www.youtube.com/watch?v=abcdefghijk
-# O ID de video é abcdefghijk
+Você encontra o ID do video na URL.
+Ex.: https://www.youtube.com/watch?v=abcdefghijk
+O ID de video é abcdefghijk
 
 **BIBLIOTECAS QUE PRECISAM SER INSTALADAS**
 
-# pip install google-api-python-client textblob pandas plotly wordcloud nltk gensim
+pip install google-api-python-client textblob pandas plotly wordcloud nltk gensim
 
 **COMANDOS PARA RODAR E VISUALIZAR O DASHBOARD**
-# python app.py
-# O Dashboard poderá ser visto no endereço "http://localhost:8050"
+ python app.py
+ O Dashboard poderá ser visto no endereço "http://localhost:8050"
 
