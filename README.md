@@ -9,19 +9,19 @@ O objetivo deste projeto é analisar o sentimento e as tendências nos comentár
 
 ### TÉCNICAS UTILIZADAS
 
-Raspagem de Dados: Usamos a API do YouTube, que fez a coleta dos comentários de um vídeo específico.
+- Raspagem de Dados: Usei a API do YouTube, que fez a coleta dos comentários de um vídeo específico.
 
-Processamento de Linguagem Natural (NLP): Aplicamos técnicas de NLP, como análise de sentimentos, usando a biblioteca TextBlob que criou uma nuvem de palavras para visualizar os termos mais frequentes nos comentários.
+- Processamento de Linguagem Natural (NLP): Apliquei técnicas de NLP, como análise de sentimentos, usando a biblioteca TextBlob que criou uma nuvem de palavras para visualizar os termos mais frequentes nos comentários.
 
 ### COLETA E PREPARAÇÃO DOS DADOS
 
-API do YouTube: Configuramos a API do YouTube para acessar os comentários, filtrando os dados relevantes.
+- API do YouTube: Configurei a API do YouTube para acessar os comentários, filtrando os dados relevantes.
 
-Limpeza dos Dados: Implementamos a remoção de stopwords que fosse retirada algumas palavras e caracteres irrelevantes.
+- Limpeza dos Dados: Implementei a remoção de stopwords que fosse retirada algumas palavras e caracteres irrelevantes.
 
-Análise de Sentimento: Utilizamos TextBlob para analisar a polaridade dos sentimentos nos comentários.
+- Análise de Sentimento: Utilizei TextBlob para analisar a polaridade dos sentimentos nos comentários.
 
-### Análises
+### ANÁLISES
 
 **DISTRIBUIÇÃO DE SENTIMENTOS NOS COMENTÁRIOS**
 
@@ -37,7 +37,7 @@ Este gráfico de barras exibe as palavras mais frequentes e suas contagens, reve
 
 **NUVEM DE PALAVRAS MAIS COMUNS NOS COMENTÁRIOS**
 
-Utilizamos uma nuvem de palavras que destaca as palavras mais frequentes nos comentários. Palavras maiores indicam maior frequência, oferecendo insights sobre os temas mais discutidos.
+Utilizei uma nuvem de palavras que destaca as palavras mais frequentes nos comentários. Palavras maiores indicam maior frequência, oferecendo insights sobre os temas mais discutidos.
 
 
 <h3>Informações para rodar o projeto</h3>
@@ -78,9 +78,9 @@ O ID de video é abcdefghijk
 
 **BIBLIOTECAS QUE PRECISAM SER INSTALADAS**
 
-pip install google-api-python-client textblob pandas plotly wordcloud nltk gensim
+`pip install google-api-python-client textblob pandas plotly wordcloud nltk gensim`
 
 **COMANDOS PARA RODAR E VISUALIZAR O DASHBOARD**
- python app.py
+ `python app.py`
  O Dashboard poderá ser visto no endereço "http://localhost:8050"
 
